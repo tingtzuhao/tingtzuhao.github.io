@@ -54,7 +54,7 @@ function handleNo() {
 function handleYes() {
     document.body.innerHTML = `
         <div class="container">
-            <video autoplay loop muted src="videos/Muah.mp4"></video>
+            <video autoplay loop muted playsinline src="videos/Muah.mp4"></video>
             <h1>Love you Baebae! &#129293</h1>
         </div>
     `;
